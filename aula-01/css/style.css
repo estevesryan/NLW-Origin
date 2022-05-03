@@ -18,7 +18,7 @@
     --white: white;
 
     /* fomart font-size // 1rem == 10px  */
-    font-size: 65.5%;
+    font-size: 62.5%;
 }
 
 .hero-section {
@@ -27,6 +27,7 @@
     text-align: center;
     background-color: var(--brand-green-light);
     height: 108rem;
+    padding: 0 2.4rem;
 }
 
 .heat-text {
@@ -46,7 +47,6 @@
 }
 
 .subtitle {
-    padding: 0 2.4rem;
     font-size: 1.8rem;
     text-align: center;
     font-weight: normal;
@@ -55,7 +55,7 @@
 }
 
 .whatsapp-button {
-    width: 26.6rem;
+    width: 26.3rem;
     height: 5.2rem;
     background-color: var(--brand-green);
 
@@ -74,7 +74,7 @@
     align-items: center;
     gap: 1.6rem;
 
-   margin: 3.2rem auto 6rem auto;
+   margin: 3.2rem auto 2rem auto;
 }
 
 .whatsapp-button:hover {
@@ -85,6 +85,14 @@
 .whatsapp-button img {
     height: 2rem;
     width: 2rem;
+}
+
+#img-hero {
+    width: 26.3rem;
+    height: 34.2rem;
+    object-position: 0 2rem;
+    display: block;
+    margin: auto;
 }
 
 .numbers {
