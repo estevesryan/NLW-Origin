@@ -21,13 +21,39 @@
     font-size: 62.5%;
 }
 
-.hero-section {
+header {
+    width: 37.5rem;
+    height: 7.2rem;
+
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.4rem;
+}
+
+ul {
+    list-style: none;
+    display: none;
+}
+
+.hero-section::before {
+    content: "";
+    background-color: var(--brand-green-light);
     width: 100vw;
+    height: 115.1rem;
+    position: absolute;
+    z-index: -1;
+    display: block;
+    top: 0;
+    left: 0;
+}
+
+.hero-section {
+    padding: 0 2.4rem;
+    width: 37.5rem;
     margin: auto;
     text-align: center;
-    background-color: var(--brand-green-light);
-    height: 108rem;
-    padding: 0 2.4rem;
 }
 
 .heat-text {
@@ -74,7 +100,7 @@
     align-items: center;
     gap: 1.6rem;
 
-   margin: 3.2rem auto 2rem auto;
+   margin: 3.2rem auto 6rem auto;
 }
 
 .whatsapp-button:hover {
