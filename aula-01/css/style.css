@@ -21,6 +21,10 @@
     font-size: 62.5%;
 }
 
+.wrapper {
+    padding: 0 2.4rem;
+}
+
 header {
     width: 37.5rem;
     height: 7.2rem;
@@ -29,7 +33,6 @@ header {
     margin: auto;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2.4rem;
 }
 
 ul {
@@ -50,7 +53,6 @@ ul {
 }
 
 .hero-section {
-    padding: 0 2.4rem;
     width: 37.5rem;
     margin: auto;
     text-align: center;
