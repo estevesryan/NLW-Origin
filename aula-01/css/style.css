@@ -27,6 +27,7 @@
 }
 
 header {
+    transition: 250ms;
     height: 7.2rem;
     position: fixed;
     top: 0;
