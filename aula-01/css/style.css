@@ -23,16 +23,37 @@
 
 .wrapper {
     padding: 0 2.4rem;
+    width: 37.5rem;
 }
 
 header {
-    width: 37.5rem;
     height: 7.2rem;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
-    display: flex;
+.scroll {
+    transition: 250ms;
+    width: 100vw;
+    background-color: var(--brand-green);
+} 
+
+.navbar{
     margin: auto;
+    height: 100%;
+    display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+header.scroll #logo svg path{
+    fill: white;
+}
+
+header.scroll .nav-itens svg path{
+    stroke: white;
 }
 
 ul {
@@ -53,7 +74,7 @@ ul {
 }
 
 .hero-section {
-    width: 37.5rem;
+    padding-top: 7.2rem;
     margin: auto;
     text-align: center;
 }
