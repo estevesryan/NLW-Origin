@@ -1,7 +1,5 @@
-const header = document.getElementById('header')
-
-document.addEventListener("scroll", fillHeader)
+addEventListener("scroll", fillHeader)
 
 function fillHeader (){
-    header.setAttribute("class", "scroll")
+    scrollY > 30 ? header.setAttribute("class", "scroll") : header.removeAttribute("class", "scroll")
 }
